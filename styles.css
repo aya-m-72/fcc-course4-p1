@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: karla, sans-serif;
+  text-align: center;
+  color: rgb(250, 70, 100);
+  font-weight: 700;
+}
+main {
+  background-color: rgb(244, 209, 215);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  background-color: white;
+  width: 900px;
+  height: 560px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.bar {
+  fill: rgb(255, 140, 159);
+}
+.some:hover {
+  fill: rgb(250, 70, 100);
+}
